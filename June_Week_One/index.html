@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <p>New Employees</p>
+
+    <div class="input">
+        <div class="input-section">
+            <label for="name">Enter Name</label>
+            <input type="text" placeholder="Enter name" name="name" class="input-rect">
+        </div>
+        <div class="input-section">
+            <label for="profession">Enter profession</label>
+            <input type="text" placeholder="Enter profession" name="profession" class="input-rect">
+        </div>
+        <div class="input-section">
+            <label for="age">Enter age</label>
+            <input type="number" placeholder="Enter age" name="age" class="input-rect">
+        </div>
+    </div>
+    <div>
+        <button class="btn" onclick="addNewEmployee()">Add Employee</button>
+    </div>
+
+    <div id="message"></div>
+
+    <p class="second-p">Added Employees</p>
+
+    <div class="display-employees">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

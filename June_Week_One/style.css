@@ -1,0 +1,105 @@
+* {
+  background-color: black;
+  color: blanchedalmond;
+  width: 100%;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.input-section, p, .input-section ::placeholder{
+  font-weight: 400;
+  font-size: 18px;
+  position: relative;
+  left: 30px;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-rect {
+  box-sizing: border-box;
+  width: 450px;
+  height: 56px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.btn {
+    width: 170px;
+    height: 40px;
+    position: relative;
+    left: 30px;
+    color: black;
+    background: #FFFFFF;
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 20px;
+    border: 1px solid gray;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-p {
+    margin-top: 80px;
+}
+
+#message {
+    margin-top: 20px;
+    position: relative;
+    left: 30px;
+}
+
+.display-employees {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 30px;
+}
+
+.employee-details {
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    height: 56px;
+    margin-bottom: 10px;
+}
+
+.employee-details span {
+    width: 230px;
+    position: relative;
+    left: 0px;
+}
+
+.btn2 {
+    width: 150px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 20px;
+    border: 1px solid gray;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.employee-with-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
